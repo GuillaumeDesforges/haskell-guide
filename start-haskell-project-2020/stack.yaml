@@ -1,0 +1,7 @@
+# Use LTS of Stackage for GHC 8.4.4
+# https://www.stackage.org/lts-16.26
+resolver: lts-16.26
+
+# Local packages
+packages:
+  - ./helloworld

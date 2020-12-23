@@ -1,0 +1,15 @@
+name: helloworld
+version: 0.0.0
+description: My first Haskell package
+
+dependencies:
+  - base
+
+library:
+  source-dirs: ./src/lib
+
+executable:
+  source-dirs: ./src/exe
+  main: Main
+  dependencies:
+    - helloworld
